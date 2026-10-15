@@ -1,3 +1,35 @@
+
+# Python cache and environments
 __pycache__/
-.streamlit/secrets.toml
+*.py[cod]
 .venv/
+venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Secrets and environment settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Temporary and operating-system files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+~$*
+
+# Generated local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Model artifacts — include only if intentionally distributable
+# Uncomment these if your project contains large model files:
+# *.h5
+# *.keras
+# *.pkl
+# *.joblib

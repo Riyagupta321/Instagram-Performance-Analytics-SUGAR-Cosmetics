@@ -146,11 +146,34 @@ def spread(frame, col):
 
 
 # ----------------------------------------------------------------------------
-# Header
+# Header — Instagram logo + dashboard title
 # ----------------------------------------------------------------------------
-st.markdown(f"""<div class="hero"><h1>💄 Sugar Cosmetics · Instagram Performance Analytics</h1>
-<p>{dates[0]:%d %b %Y} → {dates[1]:%d %b %Y} &nbsp;|&nbsp; {len(df):,} posts &nbsp;|&nbsp;
-Engagement rate = (likes + comments + shares + saves) ÷ reach</p></div>""", unsafe_allow_html=True)
+st.markdown(f"""
+<div class="hero" style="display:flex;align-items:center;gap:16px;">
+  <div style="flex:0 0 58px;width:58px;height:58px;background:#fff;border-radius:16px;
+              display:flex;align-items:center;justify-content:center;">
+    <svg width="42" height="42" viewBox="0 0 48 48" role="img" aria-label="Instagram logo"
+         xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="instagramGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#FFDC80"/>
+          <stop offset="35%" stop-color="#F77737"/>
+          <stop offset="65%" stop-color="#E1306C"/>
+          <stop offset="100%" stop-color="#833AB4"/>
+        </linearGradient>
+      </defs>
+      <rect x="4" y="4" width="40" height="40" rx="12" fill="url(#instagramGradient)"/>
+      <rect x="12" y="12" width="24" height="24" rx="7" fill="none" stroke="#fff" stroke-width="3"/>
+      <circle cx="24" cy="24" r="6" fill="none" stroke="#fff" stroke-width="3"/>
+      <circle cx="32" cy="16" r="2" fill="#fff"/>
+    </svg>
+  </div>
+  <div>
+    <h1 style="margin:0;font-size:1.9rem;color:#fff;">Sugar Cosmetics · Instagram Performance Analytics</h1>
+    <p style="margin:4px 0 0;opacity:.9;">{dates[0]:%d %b %Y} → {dates[1]:%d %b %Y} &nbsp;|&nbsp; {len(df):,} posts &nbsp;|&nbsp;
+    Engagement rate = (likes + comments + shares + saves) ÷ reach</p>
+  </div>
+</div>""", unsafe_allow_html=True)
 
 tabs = st.tabs(["📊 Overview", "📈 Trends", "🎬 Content", "🕒 Timing", "🔻 Funnel",
                 "#️⃣ Hashtags", "👥 Audience & Growth", "🏆 Top Posts", "💡 Insights & AI"])
