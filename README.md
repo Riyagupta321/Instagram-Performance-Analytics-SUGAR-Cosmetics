@@ -236,11 +236,19 @@ These are decision-support capabilities, not guarantees of campaign lift or sale
 Add dashboard screenshots to a repository folder such as `screenshots/` and embed them here once they have been committed:
 
 ```markdown
-![Executive overview](screenshots/overview.png)
-![Trends analysis](screenshots/trends.png)
-![Content performance](screenshots/content.png)
-![Engagement funnel](screenshots/funnel.png)
-![Insights and AI](screenshots/insights-ai.png)
+![Executive overview](screenshots/Overview_1.png)
+![Trends analysis](screenshots/Trend_1.png)
+![Content performance](screenshots/Content_1.png)
+![Content performance](screenshots/Content_2.png)
+![Timing Engagement](screenshots/Timing_1.png)
+![Timing Engagement](screenshots/Timing_2.png)
+![Engagement Funnel](screenshots/Funnel_1.png)
+![Audience & Growth Visits](screenshots/Audience_and_Growth_1.png)
+![Audience & Growth Visits](screenshots/Audience_and_Growth_2.png)
+![Top Posts Details](screenshots/Top_Posts_1.png)
+![Top Posts Details](screenshots/Top_Posts_2.png)
+![Insights & AI](screenshots/Insights_and_AI_1.png)
+![Insights and AI](screenshots/Insights_and_AI_2.png)
 ```
 
 Use screenshots that do not expose API keys, account secrets, or private data.
