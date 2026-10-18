@@ -247,11 +247,11 @@ Use screenshots that do not expose API keys, account secrets, or private data.
 
 ## Author
 
-**P Suman Sangeet**  
-PGDM — Big Data Analytics | Data Analytics & Business Intelligence
+**Riya Gupta**  
+BCA graduate, pursuing MCA (AI & DS)
 
-- GitHub: [Add your GitHub profile URL]
-- LinkedIn: [Add your LinkedIn profile URL]
+- GitHub: [https://github.com/Riyagupta321]
+- LinkedIn: [www.linkedin.com/in/riya-gupta-184065333]
 - Live dashboard: [Instagram Performance Analytics — SUGAR Cosmetics](https://instagram-performance-analytics-sugar-cosmetics-t8k96n9oc6.streamlit.app/)
 
 ---
