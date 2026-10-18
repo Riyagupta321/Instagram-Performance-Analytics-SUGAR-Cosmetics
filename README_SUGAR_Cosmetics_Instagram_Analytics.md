@@ -1,4 +1,4 @@
-# SUGAR Cosmetics — Instagram Performance Analytics
+# 💄 SUGAR Cosmetics — Instagram Performance Analytics
 
 <p align="center">
   <strong>Interactive Social Media Analytics | Streamlit · Python · Plotly · Business Intelligence</strong>
